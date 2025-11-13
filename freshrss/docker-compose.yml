@@ -1,0 +1,19 @@
+services:
+
+  freshrss:
+    image: lscr.io/linuxserver/freshrss:1.27.1-ls282
+    container_name: freshrss
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    volumes:
+      - /data/freshrss/config:/config
+      - /data/freshrss/extensions:/var/www/FreshRSS/extensions
+    ports:
+      #- 8443:443
+      - 81:80
+    labels:
+      tsdproxy.enable: "true"
+      tsdproxy.name: "freshrss"
+    restart: unless-stopped

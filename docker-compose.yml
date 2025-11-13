@@ -1,0 +1,10 @@
+include:
+  - shared/docker-compose.yml
+  - portainer/docker-compose.yml
+  - filebrowser/docker-compose.yml
+  - immich/docker-compose.yml
+  - freshrss/docker-compose.yml
+  - pwndrop/docker-compose.yml
+  - navidrome/docker-compose.yml
+  - jellyfin/docker-compose.yml
+

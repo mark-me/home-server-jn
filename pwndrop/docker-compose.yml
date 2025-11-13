@@ -1,0 +1,19 @@
+services:
+
+  pwndrop:
+    image: lscr.io/linuxserver/pwndrop:1.0.1
+    container_name: pwndrop
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+      - SECRET_PATH=/pwndrop #optional
+    volumes:
+      - /data/pwndrop/appdata:/config
+    ports:
+      - 8082:8080
+    restart: unless-stopped
+    labels:
+      tsdproxy.enable: true
+      tsdproxy.name: "pwndrop"
+      tsdproxy.funnel: true # Make available outside of network

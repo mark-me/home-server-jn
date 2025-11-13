@@ -1,0 +1,21 @@
+services:
+
+  filebrowser:
+    image: gtstef/filebrowser:0.8.8-beta-slim
+    container_name: filebrowser
+    environment:
+      FILEBROWSER_CONFIG: "data/config.yaml"
+      FILEBROWSER_ADMIN_PASSWORD: "xxxxxxxxxxxxxxxxxx"
+    volumes:
+      - /data/files:/srv # Never mount root "/" directory to docker, always choose a sub-folder with your data.
+      - /data/filebrowser:/home/filebrowser/data' # mount the data folder you created with the config file.
+      # Advanced: If you plan to run with a different user besides root or filebrowser, you will need to mount a tmp directory.
+      # - './tmp/:/home/filebrowser/tmp/'
+    ports:
+      - 83:80 # the left 80 is the port **you will use** to access. The right 80 is the container port that **must match the config.yaml**
+    # Optionally run as non-root filebrowser user
+    #user: filebrowser
+    labels:
+      tsdproxy.enable: "true"
+      tsdproxy.name: "filebrowser"
+    restart: unless-stopped
