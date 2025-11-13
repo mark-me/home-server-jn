@@ -11,7 +11,7 @@ Key Features:
 
 Start by following the installation steps to get up and running quickly. Enjoy the flexibility and control of your self-hosted environment.
 
-**Interested in Adding Home Assistant?**
+:house: **Interested in Adding Home Assistant?**
 
 If you'd like to integrate Home Assistant into your self-hosted setup for smart home automation, let me know! Home Assistant can be easily added to this environment, and I can provide a  Docker Compose configuration to get you started.
 
