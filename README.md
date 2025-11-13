@@ -23,7 +23,7 @@ If you'd like to integrate Home Assistant into your self-hosted setup for smart 
 
 ##  :rocket: Playbook for new system install
 
-### OH-MY-ZSH
+### oh-my-zsh!
 
 What is [oh my zsh](https://ohmyz.sh/)?
 
