@@ -13,7 +13,9 @@ I put [TSDProxy](https://almeidapaulopt.github.io/tsdproxy/) here, which allows 
       tsdproxy.funnel: true # Make available outside of network
 ```
 
-The option `tsdproxy.name` creates the subdomain name within your tailscale network.
+All containers created are emphemeral nodes on your tailscale network. More information on what mean that can be found [here](https://tailscale.com/kb/1111/ephemeral-nodes).
+
+The option `tsdproxy.name` defines the subdomain name within your tailscale network.
 
 You shouldn't add the `tsdproxy.funnel` option to each container unless you want to expose them all to the big bad world.
 
