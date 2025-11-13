@@ -13,6 +13,8 @@ I put [TSDProxy](https://almeidapaulopt.github.io/tsdproxy/) here, which allows 
       tsdproxy.funnel: true # Make available outside of network
 ```
 
+The option `tsdproxy.name` creates the subdomain name within your tailscale network.
+
 You shouldn't add the `tsdproxy.funnel` option to each container unless you want to expose them all to the big bad world.
 
 ## Redis
