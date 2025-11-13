@@ -13,13 +13,13 @@ Start by following the installation steps to get up and running quickly. Enjoy t
 
 :stew: **Add ingredients**
 
-My go-to place for usable and reliable home-server stuff is :red_car: [linuxserver.io](https://www.linuxserver.io/), where you can find loads of docker images where each I've tried is reliable.
+My go-to place for usable and reliable home-server stuff is [linuxserver.io](https://www.linuxserver.io/), where you can find loads of docker images where each I've tried is reliable.
 
 :question: **Requests**
 
 If you'd like to integrate Home Assistant into your self-hosted setup for smart home automation, or something else, let me know! Home Assistant can be easily added to this environment, and I can provide a  Docker Compose configuration to get you started.
 
-[Contact me](mailto:mark.zwart@pobox.com) to discuss how to best integrate Home Assistant with your existing services.
+:email: [Contact me](mailto:mark.zwart@pobox.com) to discuss how to best integrate Home Assistant with your existing services.
 
 ##  :rocket: Playbook for new system install
 
