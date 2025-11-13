@@ -21,7 +21,7 @@ If you'd like to integrate Home Assistant into your self-hosted setup for smart 
 
 :email: [Contact me](mailto:mark.zwart@pobox.com) to discuss how to best integrate Home Assistant with your existing services.
 
-##  :rocket: Playbook for new system install
+## :rocket: Playbook for new system install
 
 ### :computer: oh-my-zsh!
 
