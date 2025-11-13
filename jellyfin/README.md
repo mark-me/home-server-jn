@@ -8,5 +8,5 @@ I use it exclusively for video, for audio I prefer to use a stand-alone app Navi
 
 ## Clients
 
-Android: [Symfonium](https://www.symfonium.app/)
-PC (Linux/Windows/Mac): [Supersonic](https://github.com/dweymouth/supersonic)
+* Android: [Symfonium](https://www.symfonium.app/)
+* PC (Linux/Windows/Mac): [Supersonic](https://github.com/dweymouth/supersonic)

@@ -6,5 +6,5 @@ Your Personal Streaming Service.
 
 ## Clients
 
-Android: [Symfonium](https://www.symfonium.app/)
-PC (Linux/Windows/Mac): [Supersonic](https://github.com/dweymouth/supersonic)
+* Android: [Symfonium](https://www.symfonium.app/)
+* PC (Linux/Windows/Mac): [Supersonic](https://github.com/dweymouth/supersonic)
