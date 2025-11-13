@@ -1,8 +1,15 @@
 # Home Server
 
-This repository provides a ready-to-go collection of Docker Compose configurations for running a variety of open-source services on your own hardware. Whether you're looking to stream media, manage files, aggregate RSS feeds, or integrate with Tailscale, this repo has you covered. With easy-to-follow setup instructions and best practices for sharing resources between containers, you'll have your self-hosted server up and running in no time.
+Welcome to your DIY home server hub! This repository offers a set of Docker Compose configurations for easily deploying and managing a variety of open-source services like Immich, Jellyfin, Navidrome, FileBrowser, FreshRSS, and more. Whether you’re setting up media streaming, file management, or infrastructure services like Tailscale, this setup helps you quickly spin up your server on your own hardware.
 
-Get started by following the installation guide, and enjoy the flexibility of a fully customizable, self-hosted environment!
+Key Features:
+
+* Ready-to-go setups for popular services.
+* Fixed Docker image tags for stable rollbacks in case of issues.
+* Customizable volume locations and user credentials – make sure to adjust these to fit your environment.
+* Best practices for sharing resources between containers.
+
+Start by following the installation steps to get up and running quickly. Enjoy the flexibility and control of your self-hosted environment.
 
 ## Playbook for new system install
 
