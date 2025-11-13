@@ -27,6 +27,11 @@ If you'd like to integrate Home Assistant into your self-hosted setup for smart 
 
 What is [oh my zsh](https://ohmyz.sh/)?
 
+Adds plugins:
+
+* [Syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+* [Suggests commands as you type based on history and completions](https://github.com/zsh-users/zsh-autosuggestions)
+
 
 ```bash
 sudo apt install curl wget git zsh
