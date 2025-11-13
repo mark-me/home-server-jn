@@ -23,7 +23,7 @@ If you'd like to integrate Home Assistant into your self-hosted setup for smart 
 
 ##  :rocket: Playbook for new system install
 
-### oh-my-zsh!
+### :computer: oh-my-zsh!
 
 What is [oh my zsh](https://ohmyz.sh/)?
 
@@ -50,7 +50,7 @@ To use the repo, navigate to it's root.
 docker compose up -d
 ```
 
-### Git
+### :clock1: Git
 
 Clone git and remember credentials
 ```bash
