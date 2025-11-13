@@ -49,7 +49,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 ### :whale: Docker compose
 
-[Tutorial](https://linuxvox.com/blog/install-dockercompile-ubuntu-server/)
+To install Docker compose follow this [tutorial](https://linuxvox.com/blog/install-dockercompile-ubuntu-server/)
 
 Make sure normal user can use docker
 ```bash
