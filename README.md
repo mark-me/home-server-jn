@@ -2,7 +2,7 @@
 
 Welcome to your DIY home server hub! This repository provides a set of Docker Compose configurations designed to help you deploy and manage a variety of open-source services on an Ubuntu 24.04 Server. From media streaming with Jellyfin and Navidrome to file management with FileBrowser, this setup has you covered. Do you want a home-assistant compose?
 
-:key: **Key Features:**
+### :key: Key Features:
 
 * Ready-to-go setups for services I use and like.
 * Fixed Docker image tags for stable rollbacks in case of issues.
@@ -11,11 +11,11 @@ Welcome to your DIY home server hub! This repository provides a set of Docker Co
 
 Start by following the installation steps to get up and running quickly. Enjoy the flexibility and control of your self-hosted environment.
 
-:stew: **Add ingredients**
+### :stew: Add ingredients
 
 My go-to place for usable and reliable home-server stuff is [linuxserver.io](https://www.linuxserver.io/), where you can find loads of docker images where each I've tried is reliable.
 
-:question: **Requests**
+### :question: Requests
 
 If you'd like to integrate Home Assistant into your self-hosted setup for smart home automation, or something else, let me know! Home Assistant can be easily added to this environment, and I can provide a  Docker Compose configuration to get you started.
 
