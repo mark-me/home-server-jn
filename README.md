@@ -11,9 +11,11 @@ Welcome to your DIY home server hub! This repository provides a set of Docker Co
 
 Start by following the installation steps to get up and running quickly. Enjoy the flexibility and control of your self-hosted environment.
 
-:red_car: My go-to place for usable and reliable home-server stuff is:
+:stew: **Add ingredients**
 
-:house: **Interested in Adding Home Assistant?**
+My go-to place for usable and reliable home-server stuff is :red_car: [linuxserver.io](https://www.linuxserver.io/), where you can find loads of docker images where each I've tried is reliable.
+
+**Interested in Adding Home Assistant?** :house:
 
 If you'd like to integrate Home Assistant into your self-hosted setup for smart home automation, let me know! Home Assistant can be easily added to this environment, and I can provide a  Docker Compose configuration to get you started.
 
