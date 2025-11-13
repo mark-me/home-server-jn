@@ -41,6 +41,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 nano ~/.zshrc
 ```
 
+Add/change
+```
+ZSH_THEME="lukerandall"
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
 ### :whale: Docker compose
 
 [Tutorial](https://linuxvox.com/blog/install-dockercompile-ubuntu-server/)
