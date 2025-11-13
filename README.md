@@ -41,7 +41,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 nano ~/.zshrc
 ```
 
-Add/change
+Add/change ~/.zshrc
 ```
 ZSH_THEME="lukerandall"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
