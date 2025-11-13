@@ -36,7 +36,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 nano ~/.zshrc
 ```
 
-### Docker compose
+### :whale: Docker compose
 
 [Tutorial](https://linuxvox.com/blog/install-dockercompile-ubuntu-server/)
 
