@@ -1,5 +1,9 @@
 # Home Server
 
+This repository provides a ready-to-go collection of Docker Compose configurations for running a variety of open-source services on your own hardware. Whether you're looking to stream media, manage files, aggregate RSS feeds, or integrate with Tailscale, this repo has you covered. With easy-to-follow setup instructions and best practices for sharing resources between containers, you'll have your self-hosted server up and running in no time.
+
+Get started by following the installation guide, and enjoy the flexibility of a fully customizable, self-hosted environment!
+
 ## Playbook for new system install
 
 ### OH-MY-ZSH
@@ -38,4 +42,3 @@ git config --global user.name "Tom Waits"
 git config --global user.email "xxx@yyy.zzz"
 git config --global user.password 'ghp_jadiejadieja'
 ```
-
