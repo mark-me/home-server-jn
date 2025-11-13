@@ -4,7 +4,7 @@ Welcome to your DIY home server hub! This repository provides a set of Docker Co
 
 :key: **Key Features:**
 
-* Ready-to-go setups for popular services.
+* Ready-to-go setups for services I use and like.
 * Fixed Docker image tags for stable rollbacks in case of issues.
 * Customizable volume locations and user credentials – make sure to adjust these to fit your environment.
 * Best practices for sharing resources between containers.
