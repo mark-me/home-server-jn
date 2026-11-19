@@ -8,8 +8,8 @@ services:
       - ND_ENABLESHARING=true
       - ND_SCANSCHEDULE=1h
       - ND_LOGLEVEL=warn
-      - ND_LASTFM_APIKEY=3d762689e2d3a9b405b50e9f52057cbd
-      - ND_LASTFM_SECRET=614f32828e0e993f2296be0130c94c42
+      - ND_LASTFM_APIKEY=xxxxxxxxxxxxxxxxxxxxx
+      - ND_LASTFM_SECRET=xxxxxxxxxxxxxxxxxx
       #- ND_BASEURL=""
       - PUID=1000
       - PGID=1000
